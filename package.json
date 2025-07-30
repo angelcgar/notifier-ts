@@ -1,6 +1,6 @@
 {
   "name": "notifier-ts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple notification component in TypeScript",
   "main": "dist/notify.js",
   "module": "dist/notify.js",
