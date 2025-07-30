@@ -14,7 +14,7 @@
   "files": [
     "dist"
   ],
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "vite",
