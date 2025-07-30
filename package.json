@@ -1,0 +1,36 @@
+{
+  "name": "notifier-ts",
+  "version": "1.0.0",
+  "description": "Simple notification component in TypeScript",
+  "main": "dist/notify.js",
+  "module": "dist/notify.js",
+  "types": "dist/notify.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/notify.js",
+      "types": "./dist/notify.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  },
+  "keywords": [
+    "notification",
+    "typescript",
+    "component",
+    "vanilla-js"
+  ],
+  "author": "AngelCG",
+  "license": "MIT",
+  "packageManager": "pnpm@10.0.0+sha512.b8fef5494bd3fe4cbd4edabd0745df2ee5be3e4b0b8b08fa643aa3e4c6702ccc0f00d68fa8a8c9858a735a0032485a44990ed2810526c875e416f001b17df12b"
+}
