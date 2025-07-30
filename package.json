@@ -2,13 +2,13 @@
   "name": "notifier-ts",
   "version": "1.1.0",
   "description": "Simple notification component in TypeScript",
-  "main": "dist/notify.js",
-  "module": "dist/notify.js",
-  "types": "dist/notify.d.ts",
+  "main": "dist/notifier.js",
+  "module": "dist/notifier.js",
+  "types": "dist/notifier.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/notify.js",
-      "types": "./dist/notify.d.ts"
+      "import": "./dist/notifier.js",
+      "types": "./dist/notifier.d.ts"
     }
   },
   "files": [
