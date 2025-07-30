@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      notifier-ts:
+        specifier: ^1.0.0
+        version: 1.0.0
     devDependencies:
       typescript:
         specifier: ~5.8.3
@@ -299,6 +303,9 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  notifier-ts@1.0.0:
+    resolution: {integrity: sha512-Dmpmy5COnKDBM4qw+w5K1k+/GY/IXbpT5o5wbdaXtigSfMudVUSSvBHTL/W731+z14uUsh7KYUubsOSwWEUvcw==}
+
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
@@ -547,6 +554,8 @@ snapshots:
     optional: true
 
   nanoid@3.3.11: {}
+
+  notifier-ts@1.0.0: {}
 
   picocolors@1.1.1: {}
 
