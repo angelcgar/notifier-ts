@@ -1,5 +1,3 @@
-// notifier.ts
-
 type NotificationType = 'success' | 'error' | 'info' | 'warning';
 
 interface NotificationOptions {
@@ -58,6 +56,11 @@ function injectStyles(): void {
   document.head.appendChild(style);
 }
 
+/**
+ *
+ * @param message The message to display in the notification.
+ * @param options Optional configuration for the notification.
+ */
 export function notify(message: string, options: NotificationOptions = {}): void {
   injectStyles();
   const container = ensureContainer();
